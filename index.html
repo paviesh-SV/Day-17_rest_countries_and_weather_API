@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest Countries & Weather using fetch API</title>
+
+    <!-- Adding bootstrap stylesheet -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body style="background-color:rgba(253, 84, 84, 0.826);">
+
+    <!-- creating row and column using bootstrap -->
+    <div class="container" id="container">
+
+        <!-- Creating header and adding inline style with bootstrap -->
+        <h1 class="text-center"
+            style="background:linear-gradient(180deg, #ffffff 0%, #5899e2 74%);
+       color: black; border: 5px solid black; border-radius:15px ; font-weight: bold;  font-family:'Courier New', Courier, monospace; margin-top: 20px;"
+            id="title">Rest Countries and Weather using fetch API</h1>
+
+        <!-- creating row for the weather card  -->
+        <div class="row" id="cardRow">
+        </div>
+
+    </div>
+
+    <!-- Adding external javascript file whch fetch country data from rest countries and weather data from openweather -->
+    <script src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://app.zenclass.in/sheets/v1/js/zen/suite/bundle.js"></script>
+</body>
+
+</html>
