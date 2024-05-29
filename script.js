@@ -16,7 +16,7 @@ async function fetchData() {
 //fecthing weather data from openweathermap.org with details on weather from specific countries using async await function
 async function weatherData(cityName) {
     try {
-        const apiKey = "8b973bd34aa2e73ac4742be2bd31c654";
+        const apiKey = "9d08c846d5a4ebd39cf881ce1846f3bf";
         const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`);
         if (!response.ok) {
             throw new Error("some error")
